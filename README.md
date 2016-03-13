@@ -11,3 +11,7 @@ html目录下的html文档，是我们公用的html，暂时不进行改动。
 
 package.json中我配置了browsersync，less，sass和gulp的安装，如果你也想使用这些工具，直接npm install就好了。
 哦，对了，记得安装node环境哦。
+
+###新任务：
+请修改problem.less或者problem.css实现下图的效果：
+<img src="work.png">
