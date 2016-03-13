@@ -1,0 +1,168 @@
+html,
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", SimHei, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: #edf4f0;
+}
+a {
+  color: #333;
+  text-decoration: underline;
+}
+.preamble {
+  background: #F8F8F8;
+}
+.page-wrapper .intro header {
+  padding: 90px 0 110px;
+  margin-bottom: 0;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+  background: linear-gradient(45deg, #2d6360 0, #6d3353 100%);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+}
+.page-wrapper .intro header h1 {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+}
+.page-wrapper .intro header h2 {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 1.25;
+}
+.page-wrapper .intro .summary {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 200;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-wrapper .intro .summary p:first-child {
+  font-size: 20px;
+}
+.page-wrapper .intro .summary p:last-child {
+  color: #999;
+}
+.page-wrapper .intro .summary p:last-child a {
+  color: #999;
+  text-decoration: underline;
+}
+.page-wrapper .intro .preamble {
+  width: 100%;
+  padding: 1em 5%;
+  color: #2e484c;
+  float: left;
+  box-sizing: border-box;
+}
+.page-wrapper .intro .preamble h3 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+.page-wrapper .main {
+  float: left;
+  width: 60%;
+}
+.page-wrapper .main .explanation,
+.page-wrapper .main .participation,
+.page-wrapper .main .benefits,
+.page-wrapper .main .requirements {
+  float: left;
+  background: #1f1f23;
+  padding: 1em 5% 1em 10%;
+  color: #2e484c;
+  box-sizing: border-box;
+}
+.page-wrapper .main .explanation h3 {
+  color: #fff;
+}
+.page-wrapper .main .explanation p {
+  color: #717171;
+}
+.page-wrapper .main .participation {
+  background: #F8F8F8;
+}
+.page-wrapper .main .benefits h3 {
+  color: #fff;
+}
+.page-wrapper .main .benefits p {
+  color: #717171;
+}
+.page-wrapper .main .requirements {
+  background: #F8F8F8;
+}
+.page-wrapper .main h3 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+.page-wrapper .main footer {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+  background: linear-gradient(45deg, #6d3353 0, #2d6360 100%);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+  padding: 50px 0;
+}
+.page-wrapper .main footer a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  margin: 20px;
+}
+.page-wrapper .main footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.page-wrapper .sidebar {
+  float: left;
+  width: 40%;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #edf4f0;
+}
+.page-wrapper .sidebar .wrapper {
+  padding: 20px;
+}
+.page-wrapper .sidebar .wrapper h3 {
+  font-weight: lighter;
+  text-align: left;
+  color: #49968e;
+}
+.page-wrapper ul,
+.page-wrapper ul > li {
+  list-style: none;
+  margin: 20px;
+  font-style: italic;
+  text-align: left;
+  color: #ccc;
+}
+.page-wrapper ul a:first-child,
+.page-wrapper ul > li a:first-child {
+  display: block;
+  text-transform: uppercase;
+  color: #607476;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-style: normal;
+}
+.page-wrapper ul a:first-child:hover,
+.page-wrapper ul > li a:first-child:hover {
+  color: #49968e;
+}
+.page-wrapper ul a.designer-name,
+.page-wrapper ul > li a.designer-name {
+  color: #0d8ba1;
+  font-style: normal;
+  text-decoration: none;
+}
+.page-wrapper ul a.designer-name:hover,
+.page-wrapper ul > li a.designer-name:hover {
+  color: #49968e;
+}
